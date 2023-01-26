@@ -1,0 +1,3 @@
+CREATE USER metabase WITH PASSWORD 'password';
+CREATE DATABASE metabase;
+GRANT ALL PRIVILEGES ON DATABASE metabase TO metabase;
